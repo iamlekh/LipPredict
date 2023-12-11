@@ -17,7 +17,7 @@ git_commit_d:
 	git commit -m "--"
 git_push:
 	git push origin main
-git: clean format git_add git_commit_d git_push
+git: git_add git_commit_d git_push
 
 utest:
 	@python -m pytest bank/tests/basic_test.py
