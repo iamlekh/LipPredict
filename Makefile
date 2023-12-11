@@ -11,8 +11,6 @@ format:
 	@python -m black -l 100 *.py
 git_add:
 	git add .
-git_commit:
-	git commit (VAR)
 git_commit_d:
 	git commit -m "--"
 git_push:
