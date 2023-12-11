@@ -1,7 +1,18 @@
-# jupyter
-numpy
-pandas
-opencv-python
-matplotlib
-gdown
-tensorflow
+gdown==4.7.1
+keras==2.13.1
+matplotlib==3.7.4
+numpy==1.24.3
+opencv-python==4.8.1.78
+Pillow==10.1.0
+pandas==2.0.3
+tensorflow==2.13.1
+dvc
+mlflow==2.2.2
+notebook
+python-box==6.0.2
+pyYAML
+ensure==1.0.2
+joblib
+types-PyYAML
+black
+-e .
