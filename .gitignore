@@ -161,5 +161,4 @@ cython_debug/
 
 
 
-data/alignments/
-data/s1/
+/data/**/*.*
