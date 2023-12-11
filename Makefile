@@ -3,6 +3,7 @@ clean:
 	@rm -rfv */__pycache__
 	@rm -rfv *__pycache__
 	@find . -type f -name "*.log" -exec rm -f {} \;
+	@find . -type f -name ".DS_Store" -exec rm -f {} \;
 	@rm -rf mlruns
 	@clear
 format:
