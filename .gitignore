@@ -160,5 +160,5 @@ cython_debug/
 #.idea/
 
 */*.egg-info
-
+/artifacts/data_ingestion/*
 data/**/*.*
